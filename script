@@ -12,7 +12,7 @@ Section:NewButton("Win", "Teleports You To The Win Button", function()
 end)
 
 --Main
-local Tab = Window:NewTab("3 Completion Badges")
+local Tab = Window:NewTab("Badges")
 local Section = Tab:NewSection("Badges")
 
 Section:NewButton("Conveyor Trial", "Teleports You To The Badge", function()
@@ -23,3 +23,18 @@ Section:NewButton("The Wall", "Teleports You To The Badge", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/The%20wall'))()
 end)
 
+Section:NewButton("Golden Slope", "Teleports You To The Badge", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/golden%20slope'))()
+end)
+
+Section:NewButton("The Tall Peak", "Teleports You To The Badge", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/the%20tall%20peak'))()
+end)
+
+Section:NewButton("Single Steps", "Teleports You To The Badge", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/Single%20Steps'))()
+end)
+
+Section:NewButton("Super Steps", "Teleports You To The Badge", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/the%20super%20steps'))()
+end)
