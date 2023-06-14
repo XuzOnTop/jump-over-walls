@@ -38,3 +38,22 @@ end)
 Section:NewButton("Super Steps", "Teleports You To The Badge", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/the%20super%20steps'))()
 end)
+
+Section:NewButton("Ice Spike", "Teleports You To The Badge", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/ice%20spike'))()
+end)
+
+
+Section:NewButton("The Big Phill", "Teleports You To The Badge", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/the%20big%20phill'))()
+end)
+
+
+Section:NewButton("The JOTW", "Teleports You To The Badge", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/The%20JOTW'))()
+end)
+
+
+Section:NewButton("The Expensive Wall", "Teleports You To The Badge", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/The%20Expensive%20Wall'))()
+end)
