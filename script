@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Jump Over Walls", "DarkTheme")
+
+
+--Main
+local Tab = Window:NewTab("Win 1-50")
+local Section = Tab:NewSection("Main")
+
+
+Section:NewButton("Win", "Teleports You To The Win Button", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/win%201-50'))()
+end)
+
+--Main
+local Tab = Window:NewTab("3 Completion Badges")
+local Section = Tab:NewSection("Badges")
+
+MainSection:NewButton("Win", "Teleports You To The Badge", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/conveyor%20trial'))()
+end)
