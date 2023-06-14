@@ -15,6 +15,11 @@ end)
 local Tab = Window:NewTab("3 Completion Badges")
 local Section = Tab:NewSection("Badges")
 
-MainSection:NewButton("Win", "Teleports You To The Badge", function()
+Section:NewButton("Conveyor Trial", "Teleports You To The Badge", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/conveyor%20trial'))()
 end)
+
+Section:NewButton("The Wall", "Teleports You To The Badge", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/splamXxU/jump-over-walls/main/The%20wall'))()
+end)
+
